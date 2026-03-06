@@ -6,22 +6,6 @@
 /* Tipo opaco */
 typedef struct Pelicula Pelicula;
 
-
-/* TODO
-   Definir la estructura Pelicula
-
-   Debe contener:
-   - titulo (cadena dinámica)
-   - anio
-   - genero (cadena dinámica)
-   - arreglo de directores
-   - contador de directores
-*/
-struct Pelicula
-{
-    /* TODO */
-};
-
 /* Crear una película */
 Pelicula* crearPelicula(const char* titulo, int anio, const char* genero);
 
