@@ -3,6 +3,23 @@
 #include <string.h>
 #include "pelicula.h"
 
+
+/* TODO
+   Definir la estructura Pelicula
+
+   Debe contener:
+   - titulo (cadena dinámica)
+   - anio
+   - genero (cadena dinámica)
+   - arreglo de directores
+   - contador de directores
+*/
+struct Pelicula
+{
+    /* TODO */
+};
+
+
 /* TODO
    Crear función auxiliar para copiar cadenas
    usando malloc + strcpy
