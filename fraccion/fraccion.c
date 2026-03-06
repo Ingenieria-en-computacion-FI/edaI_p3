@@ -3,6 +3,18 @@
 #include "fraccion.h"
 
 /* TODO
+   Definir la estructura Fraccion
+   Debe contener:
+   - numerador
+   - denominador
+*/
+struct Fraccion
+{
+    /* TODO */
+};
+
+
+/* TODO
    Crear una función auxiliar para calcular
    el máximo común divisor (MCD)
 */
