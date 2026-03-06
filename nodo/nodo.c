@@ -2,6 +2,15 @@
 #include <stdlib.h>
 #include "nodo.h"
 
+/* TODO
+   Definir la estructura Nodo.
+   Debe contener un entero llamado valor.
+*/
+struct Nodo
+{
+    /* TODO */
+};
+
 
 /* Crear un nodo dinámicamente */
 Nodo* crearNodo(int valor)
