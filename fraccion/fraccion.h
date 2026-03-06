@@ -4,17 +4,6 @@
 /* Tipo opaco */
 typedef struct Fraccion Fraccion;
 
-/* TODO
-   Definir la estructura Fraccion
-   Debe contener:
-   - numerador
-   - denominador
-*/
-struct Fraccion
-{
-    /* TODO */
-};
-
 /* Crear una fracción */
 Fraccion* crearFraccion(int num, int den);
 
