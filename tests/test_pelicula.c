@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../EXERCICES/pelicula.h"
+#include "../movie/pelicula.h"
 
 int main()
 {
