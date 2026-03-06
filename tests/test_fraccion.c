@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../EXERCICES/fraccion.h"
+#include "../fraccion/fraccion.h"
 
 int main()
 {
