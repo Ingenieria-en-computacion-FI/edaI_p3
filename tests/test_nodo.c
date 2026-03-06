@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../EXERCICES/nodo.h"
+#include "../nodo/nodo.h"
 
 int main()
 {
