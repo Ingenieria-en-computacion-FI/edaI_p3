@@ -1,35 +1,40 @@
-#ifndef PELICULA_H
-#define PELICULA_H
+#ifndef __PELICULA_H__
+#define __PELICULA_H__
 
-#include <stdbool.h>
+#define MAX_DIRECTORES 10
 
-// Todo (1) define la estructura Pelicula con sus características y define un alias
+/* Tipo opaco */
+typedef struct Pelicula Pelicula;
 
 
-// Todo(2): completa el prototipo de la función crearPelicula
-Pelicula* crearPelicula();
+/* TODO
+   Definir la estructura Pelicula
 
-// Todo(3): completa el prototipo de la función destruir
-void destruir();
+   Debe contener:
+   - titulo (cadena dinámica)
+   - anio
+   - genero (cadena dinámica)
+   - arreglo de directores
+   - contador de directores
+*/
+struct Pelicula
+{
+    /* TODO */
+};
 
-/* Observadores */
-// Todo(4): Completa los prototipos para que reciban una referencia constante
-const char* obtener_titulo();
-const char* obtener_director();
-int obtener_anio();
-const char* obtener_genero();
-int otener_duracion();
-float obtener_calificacion();
+/* Crear una película */
+Pelicula* crearPelicula(const char* titulo, int anio, const char* genero);
 
-/* Modificadores */
-// Todo(5): Completa los prototipos para que reciban una referencia y el valor de loq eu se va a modificar
-void calificar();
-void cambiarGenero();
-void agregarDirector();
+/* Imprimir información de la película */
+void imprimir(Pelicula* p);
 
-/* Derivadas */
-// Todo(6): Completa los prototipos para que reciban una referencia constante
-bool esClasica();
-bool esLarga();
+/* Cambiar el género */
+void cambiarGenero(Pelicula* p, const char* nuevoGenero);
+
+/* Agregar un director */
+void agregarDirector(Pelicula* p, const char* director);
+
+/* Liberar memoria */
+void destruir(Pelicula* p);
 
 #endif
